@@ -1,0 +1,110 @@
+/****Global Contact styles****/
+.contact_page .contact_content p{
+    line-height: 160% !important;
+    padding: 0 !important;
+    margin-bottom: 26px !important;
+}
+
+/********company ***********/
+
+.company {
+    border: 1px solid #dbe2e2 !important;
+    border-radius: 5px !important;
+    padding: 30px 30px 30px 43px !important;
+}
+
+.company p:nth-last-child(2){
+line-height: 160%;
+margin-bottom: 3px !important;
+}
+
+.company p:last-child{
+line-height: 116%;
+}
+
+
+/********company links***********/
+
+.company a {
+color: #0098d3 !important;
+}
+
+.company a:hover {
+color: #ccc !important;
+}
+
+
+/********company heading***********/
+
+.company h3 {
+    padding-bottom: 0 !important;
+    letter-spacing: -1px !important;
+    margin-bottom: 25px !important;
+}
+
+
+/********Map***********/
+
+.map {
+    border: 1px solid #dbe2e2 !important;
+    border-radius: 5px !important;
+}
+
+.map .et_pb_map{
+    height: 290px !important;
+}
+
+
+@media only screen and (max-width: 980px) {
+    .contact_page h1{
+        line-height: 80% !important;
+    }
+
+    .contact-us-page h2{
+        margin-bottom: 20px !important;
+    }
+
+    #gform_2 li.form-state-zip{
+        margin-bottom: 22px !important;
+    }
+
+    .contact-us-page .gform_footer{
+        margin-top: 37px !important;
+        margin-bottom: 8px !important;
+    }
+
+    .contact-us,
+    .map,
+    .mailinglist,
+    .company{
+        margin-bottom: 80px !important;
+    }
+
+    /*.et_divi_builder #et_builder_outer_content .et_pb_section:not(.services_row ) .et_pb_column{*/
+        /*margin-bottom: 60px !important;*/
+    /*}*/
+
+    .et_divi_builder #et_builder_outer_content .et_pb_section:not(.services_row ) .et_pb_column:last-child{
+        margin-bottom: 0 !important;
+    }
+
+    /*.et_divi_builder #et_builder_outer_content .et_pb_column:not(:last-child) p:nth-last-child(2){*/
+        /*padding-bottom: 0 !important;*/
+    /*}*/
+
+}
+
+@media only screen and (max-width: 767px) {
+    body .content-sidebar-wrap .content #et_builder_outer_content .et_pb_column  .widget_categories,
+    body .content-sidebar-wrap .content #et_builder_outer_content .et_pb_column  .testimonial,
+    body .content-sidebar-wrap .content #et_builder_outer_content .et_pb_column  .contact-us,
+    body .content-sidebar-wrap .content #et_builder_outer_content .et_pb_column  .map,
+    body .content-sidebar-wrap .content #et_builder_outer_content .et_pb_column  .mailinglist,
+    body .content-sidebar-wrap .content #et_builder_outer_content .et_pb_column  .company{
+        margin-bottom: 60px !important;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_section:not(.services_row ) .et_pb_column:last-child{
+        margin-bottom: 0 !important;
+    }
+}

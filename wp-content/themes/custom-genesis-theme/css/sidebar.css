@@ -1,0 +1,329 @@
+/********sidebar remove extra space ***********/
+
+.et_divi_builder #et_builder_outer_content .et_pb_gutters3 .et_pb_column_1_3 .et_pb_grid_item,
+.et_divi_builder #et_builder_outer_content .et_pb_gutters3 .et_pb_column_1_3 .et_pb_widget,
+.et_divi_builder #et_builder_outer_content .et_pb_gutters3 .et_pb_column_1_3 .et_pb_shop_grid .woocommerce ul.products li.product,
+.et_divi_builder #et_builder_outer_content .et_pb_gutters3.et_pb_row .et_pb_column_1_3 .et_pb_grid_item,
+.et_divi_builder #et_builder_outer_content .et_pb_gutters3.et_pb_row .et_pb_column_1_3 .et_pb_widget,
+.et_divi_builder #et_builder_outer_content .et_pb_gutters3.et_pb_row .et_pb_column_1_3 .et_pb_shop_grid .woocommerce ul.products li.product,
+.et_divi_builder #et_builder_outer_content .et_section_specialty .et_pb_row .et_pb_column_2_3 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_3 .et_pb_grid_item,
+.et_divi_builder #et_builder_outer_content .et_section_specialty .et_pb_row .et_pb_column_2_3 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_3 .et_pb_widget,
+.et_divi_builder #et_builder_outer_content .et_section_specialty .et_pb_row .et_pb_column_2_3 .et_pb_gutters3.et_pb_row_inner .et_pb_column_1_3 .et_pb_shop_grid .woocommerce ul.products li.product {
+    margin-bottom: 25px !important;
+}
+
+/********sidebar remove line***********/
+
+.et_divi_builder #et_builder_outer_content .et_pb_widget_area_left {
+    border-right: 0px solid rgba(0, 0, 0, 0.1) !important;
+    padding-right: 0px !important;
+}
+
+/********Contact Us form***********/
+
+.contact-us {
+    border: 1px solid #dbe2e2 !important;
+    border-radius: 5px !important;
+    padding: 30px !important;
+}
+
+.contact-us .ginput_container_text {
+    border-bottom: 1px solid #dbe2e2 !important;
+    margin: -8px 0 -2px !important;
+    height: 45px !important;
+}
+
+.contact-us .ginput_container_textarea {
+    border-bottom: 1px solid #dbe2e2 !important;
+}
+
+.contact-us textarea.medium {
+    padding: 7px 0 0 4px !important;
+}
+
+.contact-us h3 {
+    font-size: 35px !important;
+    margin-bottom: -16px !important;
+    color: #242424 !important
+}
+
+.contact-us .gform_button {
+    background-color: #0098d3 !important;
+    width: 100% !important;
+    height: 44px !important;
+    color: white !important;
+    text-align: center !important;
+    border-radius: 5px !important;
+    transition: 0.3s !important;
+}
+
+.contact-us .gform_button:hover {
+    background-color: #eeeeee !important;
+    color: #2e313a  !important;
+    border-radius: 5px !important;
+
+    transition: 0.3s !important;
+}
+
+/********mailing list***********/
+#black-studio-tinymce-10 .gform_wrapper.gform_validation_error .validation_error {
+    text-align: center !important;
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+#black-studio-tinymce-10 .gform_wrapper.gform_validation_error .gfield_error {
+    width: 100% !important;
+}
+
+#black-studio-tinymce-10 .gform_confirmation_wrapper, #black-studio-tinymce-10 .gform_wrapper.gform_validation_error {
+    max-height: none !important;
+    padding: 15px !important;
+    text-align: center !important;
+}
+
+/*#black-studio-tinymce-10 .gform_wrapper {*/
+    /*max-height: 53px !important*/
+/*}*/
+
+#black-studio-tinymce-10>.textwidget{
+    line-height: 120% !important;
+}
+#black-studio-tinymce-10 .gform_footer{
+    width: 22% !important;
+    float: right;
+    display: inline-block;
+    clear: none !important;
+}
+#black-studio-tinymce-10 .gform_body{
+    width: 78% !important;
+    float: left;
+    display: inline-block;
+
+}
+#black-studio-tinymce-10 {
+    border-radius: 5px !important;
+    border: 1px solid rgb(225,225,225) !important;
+    padding: 15px 25px 0 !important;
+}
+
+#black-studio-tinymce-10{
+    padding-bottom: 20px !important;
+    float: left !important;
+    width: 100%;
+}
+
+#black-studio-tinymce-10 h3.gform_title{
+    font-size: 20px !important;
+    font-weight: 400 !important;
+    color:  #0098d3 !important;
+    padding-bottom: 8px !important;
+}
+#black-studio-tinymce-10 .gform_description{
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    color: rgba(102, 102, 102, 0.702) !important;
+    line-height: 130% !important;
+    margin-bottom: 13px !important;
+    display: block;
+}
+
+#black-studio-tinymce-10 li.gplaceholder {
+    margin: 0 !important;
+}
+
+#black-studio-tinymce-10 input:not(#gform_submit_button_3) {
+    color: #666666 !important;
+    padding: 8px 10px !important;
+    text-indent: 0 !important;
+    height: auto !important;
+    font-weight: 400 !important;
+    width: 100% !important;
+
+
+    border-bottom: 1px solid rgb(225,225,225) !important;
+    border-top: 1px solid rgb(225,225,225) !important;
+    border-left: 1px solid rgb(225,225,225) !important;
+}
+
+#black-studio-tinymce-10 input:not(#gform_submit_button_3)::-webkit-input-placeholder {
+    color: rgba(102, 102, 102, 0.7) !important;
+    padding-left: 0;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+#black-studio-tinymce-10 input:not(#gform_submit_button_3):-moz-placeholder {
+    color: rgba(102, 102, 102, 0.7) !important;
+    padding-left: 0;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+#black-studio-tinymce-10 input:not(#gform_submit_button_3)::-moz-placeholder {
+    color: rgba(102, 102, 102, 0.7) !important;
+    padding-left: 0;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+#black-studio-tinymce-10 input:not(#gform_submit_button_3):-ms-input-placeholder {
+    color: rgba(102, 102, 102, 0.7) !important;
+    padding-left: 0;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+#black-studio-tinymce-10 .gform_button {
+    font-size: 14px !important;/* Approximation due to font substitution */
+    font-weight: 400 !important;
+    background-color: #0098d3 !important;
+    color: #fff !important;
+    width: 100%;
+    text-align: center !important;
+    padding: 9px 0px !important;
+
+    border-bottom: 1px solid rgb(225,225,225) !important;
+    border-top: 1px solid rgb(225,225,225) !important;
+    border-right: 1px solid rgb(225,225,225) !important;
+
+    transition: 0.3s !important;
+}
+
+#black-studio-tinymce-10 .gform_button:hover {
+   background-color: #EEEEEE !important;
+    color: #2e313a !important;
+    transition: 0.3s !important;
+}
+
+
+/******** Testimonial widget ***********/
+
+#black-studio-tinymce-9 {
+    border: 1px solid #dbe2e2 !important;
+    border-radius: 5px !important;
+    padding: 28px 30px 10px 32px !important;
+}
+
+#black-studio-tinymce-9 h3 {
+    font-size: 23px !important;
+    font-weight: 400 !important;
+    line-height: 34px !important;
+    color: #242424 !important;
+    font-family: Lato, sans-serif;
+    margin: 0 !important;
+    padding-bottom: 20px !important;
+}
+
+
+#black-studio-tinymce-9{
+    clear: both;
+}
+
+/*********Our Team menu*********/
+
+
+
+.our_team_menu h4.widgettitle{
+    padding-bottom: 27px !important;
+}
+.our_team_menu li a:before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background-image: url("../images/blog_sidebar_arrow.png");
+    visibility: visible;
+    margin: -1px 11px;
+    margin-left: -22px;
+}
+
+.our_team_menu li{
+    border-bottom: 1px solid #dbe2e2 !important;
+    margin: 0 !important;
+    padding-bottom: 11px !important;
+    margin-bottom: 12px !important;
+    padding-left: 32px !important;
+}
+
+.our_team_menu li:last-child{
+    margin-bottom: 0 !important;
+}
+
+
+
+@media only screen and (max-width: 1339px) {
+    .contact-us h3 {
+        font-size: 30px !important;
+        margin-bottom: -16px !important;
+    }
+    #black-studio-tinymce-9 h3 {
+        font-size: 22px !important;
+        line-height: 25px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact-us h3 {
+        font-size: 25px !important;
+        margin-bottom: -16px !important;
+    }
+
+    .contact-us {
+        padding: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 980px) and (min-width: 767px) {
+
+    /********** hide sidebar **********/
+    #blog-sidebar {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .contact_page #black-studio-tinymce-9 h1 {
+        line-height: 120% !important;
+    }
+
+    #blog-sidebar {
+        margin-top: 10px !important;
+    }
+
+    body:not(.home) #content #blog-sidebar #black-studio-tinymce-10 {
+        margin-bottom: 40px !important;
+    }
+
+    body:not(.home) #content #blog-sidebar .widget_recent_entries,
+    body:not(.home) #content #blog-sidebar .widget_categories,
+    body:not(.home) #content #blog-sidebar #black-studio-tinymce-9 {
+        margin-bottom: 32px !important;
+    }
+
+    #content-sidebar-wrap #content .entry-content .our_team_menu .widget_nav_menu{
+        width: 100% !important;
+        margin-right: 0 !important;
+        margin-bottom: 0 !important;
+    }
+
+    body:not(.home) .content-sidebar-wrap .content #team_profile_content .our_team_menu  .widget_nav_menu{
+        margin-bottom: 0 !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body .content-sidebar-wrap .content #et_builder_outer_content .et_pb_column .widget_recent_entries{
+        margin-bottom: 0 !important;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    #black-studio-tinymce-9 h3 {
+    font-size: 20px !important;
+    line-height: 26px !important;}
+}

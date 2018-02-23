@@ -1,0 +1,367 @@
+/*
+Theme Name: Custom Genesis Theme
+Description: Child theme of Genesis.
+Author:
+URI:
+Template: genesis
+*/
+@import url("../genesis/style.css");
+@import url("css/header.css");
+@import url("css/footer.css");
+@import url("css/blog.css");
+@import url("css/inside.css");
+@import url("css/forms.css");
+@import url("css/sidebar.css");
+@import url("css/contact.css");
+@import url("css/drop-downs.css");
+@import url("css/404.css");
+@import url("css/search.css");
+@import url("css/home.css");
+
+/******** Default padding ***********/
+
+@font-face {
+    font-family: 'DIN-Medium';
+    src: url('fonts/DIN-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DINMittelschrift';
+    src: url('fonts/DINMittelschrift.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Harabara';
+    src: url('fonts/Harabara.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.full_width_template #content > .entry {
+    padding: 0px;
+}
+
+.et_divi_builder #et_builder_outer_content .et_pb_row {
+    padding: 40px 0 !important;
+}
+
+.et_divi_builder #et_builder_outer_content .et_pb_section {
+    padding: 40px 0 !important;
+}
+
+.et_divi_builder #et_builder_outer_content .et_pb_fullwidth_section {
+    padding: 0 !important;
+}
+
+.entry {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+.site-inner {
+    clear: both;
+    padding: 0;
+    max-width: 100%;
+}
+
+/* Chrome fix */
+
+body > div {
+    font-size: 16px !important;
+}
+
+body {
+    background-color: #fff !important;
+    color: #666666;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    margin: 0;
+    line-height: 150% !important;
+}
+
+/******** Default text stlyes ***********/
+
+/***** Default headers *******/
+
+h1, h2, h3, h4, h5, h6 {
+    color: #242424 !important;
+    font-family: DIN-Medium !important;
+    font-weight: 400;
+    line-height: 130% !important;
+    margin: 0 !important;
+    padding-bottom: 20px !important;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #0098d3 !important;
+}
+
+p {
+    padding-bottom: 20px !important;
+}
+
+/***** Inside page title ********/
+
+.et_pb_title_container span {
+    display: inline-block;
+    color: #242424 !important;
+    font-family: Lato, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 130% !important;
+    margin: 0 !important;
+    padding-bottom: 20px !important;
+}
+
+/******** Default text links ***********/
+
+a {
+    transition: all 0.5s ease !important;
+}
+
+a:hover {
+}
+
+.page_inside__content a {
+    color: #0098d3 !important;
+    border-bottom: 1px solid #0098D3 !important;
+    padding-bottom: 1px !important;
+}
+
+.page_inside__content a:hover {
+    opacity: 0.6;
+}
+
+/******** Default link animations ***********/
+
+/******** Default text lists ***********/
+
+.et_divi_builder #et_builder_outer_content .content_row .page_inside__content ul, .et_divi_builder #et_builder_outer_content .content_row .page_inside__content ol {
+    margin-left: 35px;
+    padding-bottom: 20px;
+}
+
+.et_divi_builder #et_builder_outer_content .content_row .page_inside__content ul li {
+    list-style: disc !important;
+    padding-left: 15px;
+}
+
+.et_divi_builder #et_builder_outer_content .content_row .page_inside__content ol li {
+    list-style: decimal !important;
+    padding-left: 15px;
+}
+
+/********** Scroll To top **********/
+
+.scroll-back-to-top-wrapper {
+    background-color: #808285 !important;
+    opacity: 0.65 !important;
+    color: #fff !important;
+    line-height: 42px !important;
+}
+
+.scroll-back-to-top-wrapper:hover {
+    background-color: #EEEEEE !important;
+    opacity: 0.65 !important;
+    color: #2e313a !important;
+}
+
+/***********Social Sidebar************/
+
+body.et_monarch .et_social_sidebar_networks a {
+    float: right !important;
+}
+
+/****Admin Bar****/
+
+body.wp-admin .zemanta-wrap {
+    display: none !important;
+}
+
+/**Maintemamce Mode Page****/
+
+.maintenance_mode_video, .maintenance_mode_video video {
+    max-height: 100%;
+}
+
+.wp-caption {
+    background-color: #F1F1F1 !important;
+    padding: 10px 10px 0 10px !important;
+    text-align: center !important;
+}
+
+/****Accordion Arrow*****/
+
+body .et_pb_accordion .et_pb_toggle h5.et_pb_toggle_title:before {
+    display: none !important;
+}
+
+body .et_pb_accordion .et_pb_toggle h5.et_pb_toggle_title:after {
+    display: inline-block;
+    font-size: 18px;
+    font-family: FontAwesome !important;
+    position: absolute;
+    right: 10px;
+}
+
+body .et_pb_accordion .et_pb_toggle_open h5.et_pb_toggle_title:after {
+    content: "";
+
+}
+
+body .et_pb_accordion .et_pb_toggle_close h5.et_pb_toggle_title:after {
+    content: '';
+}
+
+.et_divi_builder #et_builder_outer_content .et_pb_fullwidth_header .et_pb_fullwidth_header_container,
+.et_divi_builder #et_builder_outer_content .et_pb_row {
+    max-width: 1366px !important;
+    width: 80% !important;
+}
+
+@media only screen and (max-width: 1710px) {
+    .et_divi_builder #et_builder_outer_content .et_pb_row:not(#footer-copyright-section) {
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    /*.et_divi_builder #et_builder_outer_content .et_pb_fullwidth_header .et_pb_fullwidth_header_container, */
+    .et_divi_builder #et_builder_outer_content .et_pb_row:not(#footer-copyright-section){
+        max-width: none !important;
+        width: 80% !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+@media only screen and (max-width: 989px) {
+    .scroll-back-to-top-wrapper {
+        width: 35px !important;
+        height: 35px !important;
+        line-height: 28px !important;
+        right: 15px !important;
+        bottom: 15px !important;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    .et_divi_builder #et_builder_outer_content .et_pb_row {
+        padding: 20px 0 !important;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_section {
+        padding: 20px 0 !important;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_fullwidth_section {
+        padding: 0 !important;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    body.home #content-sidebar-wrap .home_first_columns {
+        padding-top: 5px !important;
+    }
+
+    body.home #content-sidebar-wrap .home_first_columns > .et_pb_column:nth-child(2),
+    body.home #content-sidebar-wrap .home_first_columns > .et_pb_column:first-child {
+        margin-bottom: 17px !important;
+    }
+
+    body.home #wrap #content-sidebar-wrap .services_row {
+        margin-top: 26px !important;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_section.services_row .et_pb_row {
+        padding-top: 0 !important;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_row {
+        padding: 60px 0 !important;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_section.services_row:not(.et_pb_section_1 ) {
+        padding-top: 0 !important;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_section:not(.et_pb_section_1 ) {
+        padding: 20px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    h5 {
+        font-size: 16px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    .et_divi_builder #et_builder_outer_content .et_pb_row {
+        padding: 40px 0 !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    h1 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+}
+
+

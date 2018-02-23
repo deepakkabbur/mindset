@@ -1,0 +1,454 @@
+
+
+
+
+/********* Video **********/
+body .video_page_text {
+    position: relative;
+    top: 40% !important;
+    width: 100%;
+}
+
+body #wrap #content-sidebar-wrap .maintenance_mode_video{
+    padding: 0 !important;
+}
+.page__inside___content____video {
+    margin-top: 74px !important;
+    margin-bottom: 56px !important;
+}
+
+.page__inside___content____video iframe {
+    min-height: 583px;
+}
+
+html body.page.et_divi_builder #et_builder_outer_content .et_pb_module h2 a {
+    color: #00aeef;
+}
+
+.page__inside___content p {
+    font-family: Lato;
+    color: #343740;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 21px !important;
+}
+
+.page__inside___content div.quote p {
+    font-family: Roboto !important;
+}
+
+.page__inside___content a {
+    color: #00aeef !important;
+    border-bottom: 2px solid #00aeef !important;
+    padding-bottom: 1px;
+}
+
+.page__inside___content a:hover {
+    opacity: 0.6;
+}
+
+.post-edit-link {
+    display: none !important;
+}
+
+.page__inside___content ul {
+    margin: 0 auto 20px !important;
+}
+
+.page__inside___content ol {
+    margin-bottom: 30px !important;
+}
+
+.page__inside___content ul li,
+.page__inside___content ol li {
+    font-family: Lato;
+    color: #343740;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.page__inside___content ol li {
+    list-style: none !important;
+    counter-increment: custom-counter;
+}
+
+.page__inside___content ol li:before {
+    counter(custom-counter);
+    content: counter(custom-counter) '.';
+    padding-right: 15px;
+}
+
+body {
+    counter-reset: custom-counter;
+}
+
+.et_pb_gallery_pagination ul li:before {
+    display: none;
+}
+
+.page__inside___content ul li:before {
+    content: '·';
+    font-size: 18px;
+    font-weight: 900;
+    padding-right: 8px;
+}
+
+.page__inside___content .et_pb_row .et_pb_column .page__inside___content____video:first-child {
+    margin-top: 0 !important;
+}
+
+
+/******** Accordion ********/
+
+.et_divi_builder #et_builder_outer_content .et_pb_toggle h5.et_pb_toggle_title {
+    padding: 0 0 0 0 !important;
+}
+
+.page__inside___accordion {
+    margin-top: 55px !important;
+}
+
+.page__inside___accordion .et_pb_toggle_title:before {
+    display: none;
+}
+
+.page__inside___accordion .et_pb_toggle {
+    margin-bottom: 0 !important;
+}
+
+.page__inside___accordion h5 {
+    text-align: center !important;
+    font-family: Roboto;
+    color: #343740 !important;
+    font-size: 28px !important;
+    line-height: 30px !important;
+}
+
+.page__inside___accordion h5:hover,
+.page__inside___accordion .et_pb_toggle_open h5 {
+    color: #ec008c !important;
+}
+
+.page__inside___accordion .et_pb_toggle_close,
+.page__inside___accordion .et_pb_toggle_open {
+    background-color: #FFF !important;
+    border: none !important;
+    border-bottom: 1px solid #DADADA !important;
+}
+
+.page__inside___accordion .et_pb_accordion_item_0 {
+    border-top: 1px solid #DADADA !important;
+}
+
+.page__inside___accordion .et_pb_toggle_open {
+    padding-top: 76px !important;
+    padding-bottom: 59px !important;
+}
+
+html .page__inside___content .page__inside___accordion p {
+    padding: 0px 6% 0px !important;
+}
+
+
+/*********** Gallery *************/
+
+.et_pb_gallery .et_pb_gallery_image {
+    max-height: 205px;
+}
+
+.page__inside___content .et_pb_gallery .et_pb_gallery_image a {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+    display: block;
+    min-height: 205px;
+    background: #fff;
+}
+
+.page__inside___content .et_pb_gallery .et_pb_gallery_image img {
+    height: 100% !important;
+    width: auto !important;
+    max-width: inherit !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto !important;
+}
+
+.et_pb_gallery_image img {
+    min-width: 0 !important;
+    min-height: 0 !important;
+}
+
+.page__inside___content .et_pb_gallery_pagination a {
+    border-bottom: none !important;
+    padding-bottom: 0 !important;
+}
+
+.mfp-title {
+    display: none;
+}
+
+.et_pb_gallery_item {
+    min-width: 205px;
+}
+
+
+
+.gform_wrapper input:not(.gform_button) {width: 100% !important;}
+
+
+/*******Team Profile Page******/
+
+#team_profile_content .et_pb_column_2_3 .et_pb_team_member_image {
+    float: none;
+    display: block !important;
+    width: 100% !important;
+    margin-bottom: 0 !important;
+}
+
+#team_profile_content .et_pb_column_2_3 h4{
+    color:  #242424 !important;
+    font-size: 36px !important;/* Approximation due to font substitution */
+    font-weight: 400 !important;
+    padding-bottom: 24px !important;
+}
+
+#team_profile_content .et_pb_column_2_3 p{
+    padding-bottom: 24px !important;
+    line-height: 25px !important;
+}
+
+#team_profile_content .et_pb_column_2_3 p:last-child{
+    padding-bottom: 0 !important;
+}
+
+
+#team_profile_content .et_pb_column_2_3 p.et_pb_member_position{
+    color:  #0098d3 !important;
+    font-size: 24px !important;/* Approximation due to font substitution */
+    font-weight: 400 !important;
+    line-height: 24px !important;
+    padding-bottom: 25px !important;
+}
+
+#team_profile_content .et_pb_column_2_3 .et_pb_member_social_links{
+    clear: both;
+    padding: 40px 0 25px;
+    margin-top: 0 !important;
+}
+
+
+#wrap #inner .coming_soon_page_text  .et_pb_promo_button{
+    padding: 0px 1em 6px !important;
+}
+#wrap #inner .coming_soon_page_text  .et_pb_promo_button:after{
+    position: relative !important;
+    top: 5px;
+}
+
+
+
+
+
+
+
+
+/***** Responsive ******/
+
+
+/************* Styles for big screens *******************/
+
+@media only screen and (min-width: 1921px) {}
+
+
+/************* Styles for smaller screens *******************/
+
+@media only screen and (max-width: 1339px) {
+    body .contact-us h4.widgettitle {
+        font-size: 26px !important;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 990px) {
+    .page__inside___content h1 {
+        font-size: 38px !important;
+    }
+    .page__inside___content h2 {
+        font-size: 28px;
+    }
+    .page__inside___content h3 {
+        font-size: 26px;
+    }
+    .page__inside___content h4 {
+        font-size: 24px;
+    }
+    .page__inside___content h5 {
+        font-size: 22px;
+    }
+    .page__inside___content h6 {
+        font-size: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 989px) {
+    .et_divi_builder #et_builder_outer_content .et_pb_section .breadcrumb {
+        padding-bottom: 40px;
+            margin-top: -123px;
+    }
+    .et_divi_builder #et_builder_outer_content .et_pb_fullwidth_section .et_pb_post_title {
+        padding: 32px 0 70px !important;
+    }
+    h1 {
+        font-size: 32px !important;
+    }
+    h2 {
+        font-size: 26px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    h4 {
+        font-size: 22px;
+    }
+    h5 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+.services_row > .et_pb_row_0:first-child {display: none;}
+
+    body:not(.home) #wrap #et_builder_outer_content div.services_row{
+        margin-top: -33px !important;
+    }
+
+    body .page_inside__content p:last-child{
+        padding-bottom: 5px !important;
+    }
+
+    body #content-sidebar-wrap #content .testimonial{
+        margin-bottom: 29px !important;
+    }
+
+    body #content-sidebar-wrap #content .contact-us {
+        margin-bottom: 40px !important;
+    }
+
+    /*******About Page*******/
+    .about__top_text .et_pb_text p:last-child{
+        padding-bottom: 0 !important;
+    }
+
+    #content-sidebar-wrap #content .about_call_action .et_pb_promo_description p{
+        padding-bottom: 0 !important;
+    }
+
+    .about_person .et_pb_column{
+        margin-bottom: 0 !important;
+    }
+
+    .about_person .et_pb_team_member{
+        border-bottom: 1px solid rgb(225,225,225) !important;
+        padding-bottom: 30px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .about_person .et_pb_team_member:last-child{
+        margin-bottom: 19px !important;
+    }
+
+    .about_person .et_pb_column:last-child  .et_pb_team_member:last-child{
+        margin-bottom: 0 !important;
+    }
+
+    .about_person .et_pb_member_social_links{
+        margin-top: 0 !important;
+    }
+
+    /******Our team******/
+    #about_person.about_person .et_pb_column:last-child .et_pb_team_member{
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        border-bottom: 0 !important;
+    }
+
+    #content-sidebar-wrap #content #team_profile_content .et_pb_column_2_3 .et_pb_team_member_image {
+        float: none;
+        display: block !important;
+        width: 100% !important;
+    }
+
+    .et_divi_builder .content-sidebar-wrap #et_builder_outer_content .et_pb_column .et_pb_team_member_image{
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+
+
+    /******Coming Soon Page*******/
+
+    #wrap #inner .coming_soon_page_text  .et_pb_promo{
+        margin-bottom: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 989px){
+    .team_call_action{
+        margin-bottom: 70px !important;
+    }
+}
+@media only screen and (max-width: 989px) and (min-width: 480px) {
+
+
+}
+
+@media only screen and (max-width: 767px) {
+    .et_divi_builder #et_builder_outer_content .et_pb_section .breadcrumb {
+        text-align: center;
+        margin: -90px auto 0px;
+            padding-bottom: 18px;
+    }
+    .et_divi_builder #et_builder_outer_content .et_pb_fullwidth_section .et_pb_post_title {
+    padding: 120px 0 70px !important;
+}
+.et_divi_builder #et_builder_outer_content .et_pb_fullwidth_header_0.et_pb_fullwidth_header {
+    background-color: transparent !important;
+}
+
+    #team_profile_content .et_pb_column_2_3 h4{
+        font-size: 30px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+
+
+/******Coming Soon Page*******/
+
+@media only screen and (max-width: 980px) {
+    #content-sidebar-wrap .et_pb_countdown_timer{
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    #content-sidebar-wrap .et_pb_countdown_timer .et_pb_countdown_timer_container .section.values .label{
+        padding-bottom: 0 !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    #content-sidebar-wrap .et_pb_countdown_timer .et_pb_countdown_timer_container .section.values{
+        width: 19% !important;
+    }
+
+    #content-sidebar-wrap .et_pb_countdown_timer .et_pb_countdown_timer_container .section.values .value{
+        font-size: 24px !important;
+    }
+}

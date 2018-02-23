@@ -1,0 +1,75 @@
+#error_page h1,
+#error_page h4,
+.content-sidebar-wrap #error_page p{
+    color: #ffffff !important;
+    font-family: "Lato";
+    font-weight: 400 !important;
+}
+
+.content-sidebar-wrap #error_page,
+.content-sidebar-wrap #error_page .et_pb_row{
+    padding-bottom: 0 !important;
+}
+
+.content-sidebar-wrap #error_page a {margin: 0 auto !important;}
+
+.content-sidebar-wrap #error_page a:hover{
+    margin: 0 auto !important;
+}
+
+#error_page h1{
+    font-size: 6.4vw !important;
+    text-transform: uppercase !important;
+    line-height: 120% !important;
+    padding-bottom: 14px !important;
+}
+#error_page h4{
+    font-size: 36px;
+    letter-spacing: 0 !important;
+    padding-top: 18px !important;
+    padding-bottom: 0 !important;
+}
+
+.content-sidebar-wrap #error_page a{
+    font-size: 20px;
+    text-align: center;
+    color: #fff !important;
+
+    border-radius: 3px;
+    background-color: rgb(0, 152, 211);
+    padding: 13px 0 !important;
+    max-width: 253px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px !important;
+}
+
+.content-sidebar-wrap #error_page a:hover{
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 980px) {
+    #error_page h4{
+        padding-top: 0 !important;
+    }
+
+        #error_page{
+        margin-bottom: 70px !important;
+    }
+    }
+
+@media only screen and (max-width: 767px) {
+    #error_page h1{
+        font-size: 40px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #error_page h1{
+        font-size: 26px !important;
+    }
+
+    #error_page h4{
+        font-size: 24px !important;
+    }
+}
