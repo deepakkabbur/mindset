@@ -677,7 +677,7 @@ body.home #home_partners_and_phasellus_section .et_pb_column:nth-child(2) p a:ho
 }
 
 body.home #home_partners_and_phasellus_section .et_pb_column:nth-child(2) p {
-    padding: 0 46px 26px !important;
+    padding: 0 24px 26px !important;
     line-height: 160%;
     letter-spacing: 0.5px;
 }
@@ -685,7 +685,7 @@ body.home #home_partners_and_phasellus_section .et_pb_column:nth-child(2) p {
 body.home #home_partners_and_phasellus_section .et_pb_column:nth-child(2) h2 {
     color: #63c5bb !important;
     font-size: 30px !important;
-    padding: 23px 46px 24px !important;
+    padding: 23px 24px 24px !important;
 }
 
 /*Home Flip Effect*/
@@ -1061,6 +1061,33 @@ body.home #et_builder_outer_content #home_banner_bottom_section .flip:hover .fro
 /*bottom: 0px !important;*/
 /*}*/
 /*}*/
+@media only screen and (min-width: 1365px) {
+    .et_pb_column.et_pb_column_1_4.et_pb_column_25 {
+        display: none !important;
+    }
+    body.home #et_builder_outer_content #home_partners_and_phasellus_section .et_pb_column {
+        width: 30% !important;
+    }
+    .et_pb_column.et_pb_column_1_4.et_pb_column_26 {
+        width: 30% !important;
+    }
+    body.home #home_banner_bottom_section .flip,
+    body.home #home_banner_bottom_section .et_pb_column > .et_pb_module {
+        width: 25% !important;
+    }
+    body.home #home_banner_bottom_section .et_pb_column > .et_pb_module:nth-child(2) {
+        width: 50% !important;
+    }
+    .et_pb_module.et-waypoint.et_pb_image.et_pb_animation_right.et_pb_image_1.et_always_center_on_mobile.et-animated {
+        display: none !important;
+    }
+    body.home #new_shows_first .et_pb_module:last-child {
+        display: none !important;
+    }
+    body.home #new_shows_first .et_pb_module {
+        width: 50% !important;
+    }
+}
 
 @media only screen and (max-width: 1366px) {
     body.home #et_builder_outer_content #home_phasellus_and_team_section .et_pb_column:nth-child(3),

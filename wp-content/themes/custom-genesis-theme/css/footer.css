@@ -292,7 +292,7 @@ body #et_builder_outer_content #site_footer .et_pb_module.et_pb_image {
 body #et_builder_outer_content #site_footer .footer-custom .et_pb_module:not(.et_pb_image ) {
     margin: 0 !important;
     padding: 42px 47px !important;
-    min-height: 415px !important;
+    min-height: 435px !important;
 }
 
 body #et_builder_outer_content #site_footer .et_pb_column:nth-child(3) .et_pb_text {
